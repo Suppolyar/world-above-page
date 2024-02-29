@@ -1,3 +1,5 @@
+import { initCookies } from "@/coockies.js";
+
 export const init = () => {
   const GEMS = window.__GEMS || {};
   window.__GEMS = {
@@ -10,6 +12,8 @@ export const init = () => {
   const script = document.createElement("script");
   script.src = "//store.my.games/hotbox/leela/header.js";
   document.head.appendChild(script);
+  
+  initCookies()
 
   // Подключение 1Link
   const initOneLink = () => {

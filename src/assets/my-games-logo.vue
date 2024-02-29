@@ -1,5 +1,5 @@
 <template>
-  <a class="flex" target="_blank" href="https://my.games/">
+  <a class="inline-flex items-center shrink-0" target="_blank" href="https://my.games/">
     <svg
       width="253"
       height="60"

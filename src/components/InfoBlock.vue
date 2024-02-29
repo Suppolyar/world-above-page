@@ -1,5 +1,5 @@
 <template>
-  <div :class="setCurrentBlockSize()" class="text-white font-bold text-xl rounded-xd bg-block shadow">
+  <div :class="setCurrentBlockSize()" class="text-white font-bold text-lg rounded-xd bg-block shadow leading-[140%]">
     <div :class="setCurrentInnerBlockSize()">
       <slot />
     </div>

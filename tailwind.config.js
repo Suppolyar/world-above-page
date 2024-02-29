@@ -2,10 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    screens: {
-      'logo-screen': {'raw': '(max-height: 860px)'}
-    },
     extend: {
+      screens: {
+        'logo-screen': {'raw': '(max-height: 800px)'}
+      },
       backgroundImage: {
         "world-above": "url('@/assets/bg.jpeg')",
         "button-bg": "url('@/assets/button.svg')",

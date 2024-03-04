@@ -16,8 +16,7 @@
           передачей
           ваших данных компании MY.GAMES B.V. и их обработкой согласно
           <a class="underline underline-offset-4" href="https://documentation.my.games/terms/mygames_privacy" target="_blank">Политике
-            конфиденциальности </a>
-          портала MY.GAMES
+            конфиденциальности</a> портала MY.GAMES
         </InfoBlock>
       </div>
     </div>

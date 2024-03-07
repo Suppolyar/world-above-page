@@ -12,8 +12,8 @@ export default {
       },
       colors: {
         footer: '#131114',
-        block: '#EACDAB',
-        'block-inner': '#D7B693'
+        block: '#9EBC0C',
+        'block-inner': '#0D6000'
       },
       borderRadius: {
         xd: '20px'

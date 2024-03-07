@@ -1,5 +1,5 @@
 <template>
-  <div :class="setCurrentBlockSize()" class="text-white font-bold text-lg rounded-xd bg-block shadow leading-[140%]">
+  <div :class="setCurrentBlockSize()" class="text-white font-bold text-lg rounded-xd bg-block  leading-[140%]">
     <div :class="setCurrentInnerBlockSize()">
       <slot />
     </div>
@@ -23,9 +23,9 @@ const setCurrentBlockSize = () => {
 const setCurrentInnerBlockSize = () => {
   switch (props.size) {
     case "medium":
-      return "m-2 border-[3px] border-block-inner rounded-xd px-6 py-3";
+      return "m-2 border-[3px] border-block-inner/30 rounded-xd px-6 py-3";
     case "large":
-      return "m-2.5 border-[3px] border-block-inner rounded-xd px-10 py-5";
+      return "m-2.5 border-[3px] border-block-inner/30 rounded-xd px-10 py-5";
   }
 };
 </script>
